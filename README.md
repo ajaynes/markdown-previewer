@@ -1,6 +1,6 @@
 # Markdown Previewer
 
-This app enables users to preview Markdown and export the generated HTML output.
+This app enables users to preview Markdown and export the generated HTML output. Preview it [here](https://ajaynes.github.io/markdown-previewer/)
 
 ### Installing
 
