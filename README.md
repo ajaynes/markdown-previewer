@@ -14,4 +14,4 @@ You need Node Package Manager installed on your computer.
 ## Authors
 
 Ashley Jaynes
-[Github](https://github.com/ajaynes)
+[Homepage](https://ashleyjaynes.com/)
