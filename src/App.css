@@ -3,6 +3,7 @@
 
 textarea {
     height: 90% !important;
+    @apply border border-gray-400;
 }
 .markdown-content h1 {
     @apply text-4xl font-bold text-gray-100;
@@ -29,12 +30,16 @@ textarea {
     @apply list-decimal pl-5 space-y-2 text-gray-300;
 }
 .markdown-content a {
-
+    @apply text-blue-300 underline transition-colors duration-200;
 }
-.markdown-content a:focus,
-.markdown-content a:hover,
+.markdown-content a:hover {
+    @apply text-blue-200;
+}
 .markdown-content a:active {
-
+    @apply outline-none ring-2 ring-blue-400;
+}
+.markdown-content a:focus {
+    @apply text-blue-400;
 }
 .markdown-content blockquote {
     @apply relative bg-gray-800 border-l-4 border-gray-400 p-4 italic text-gray-200 rounded-lg;

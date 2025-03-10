@@ -5,14 +5,14 @@ interface Props {
 }
 function TextArea({setTextInput}: Props) {
     const handleChange = (event: ChangeEvent<HTMLTextAreaElement>) => {
-        setTextInput(event.target.value);
-    };
+        setTextInput(event.target.value)
+    }
     return (
         <>
             <p className="pb-4">Begin typing below</p>
-            <textarea className="w-full p-4" onChange={handleChange} />
+            <textarea className="w-full p-4 mt-4" onChange={handleChange} />
         </>
     )
 }
 
-export default TextArea;
+export default TextArea
